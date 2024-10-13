@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 100px;
+    column-gap: 50px;
+    justify-content: center;
+    height: 800px;
+    align-content: center;
+}
+
+.grid-item {
+  text-align:center;
+}
+
+.archive-name {
+  color: #7d776e;
+  font-size: 20px;
+}
+
+time {
+  color: #a7a49f;
+  font-size: 12px;
+}
