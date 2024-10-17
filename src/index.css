@@ -17,8 +17,7 @@ code {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 125px 175px;
 }
 
 .about-page > img {
