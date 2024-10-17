@@ -27,6 +27,7 @@ code {
   overflow: hidden;
   margin: auto;
   max-width: 100%;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 .about-block {
@@ -35,6 +36,7 @@ code {
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
+  padding-top: 15px;
 }
 
 .about-block > p {
@@ -44,4 +46,12 @@ code {
   font-size: 14px;
   letter-spacing: .01em;
   line-height: 1.7em;
+}
+
+.about-block > h2 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: .02em;
+  line-height: 1em;
 }
