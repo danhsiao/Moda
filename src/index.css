@@ -34,8 +34,14 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
 }
 
 .about-block > p {
   justify-self: flex-start;
+  color: rgba(40, 26, 23, .6);
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: .01em;
+  line-height: 1.7em;
 }
