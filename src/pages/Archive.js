@@ -1,4 +1,4 @@
-import './Archive.css';
+import '../Archive.css';
 
 function Archive () {
     return (
