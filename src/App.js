@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import About from './pages/About';
 import Join from './pages/Join';
 import Archive from './pages/Archive';
+import Archive from './pages/Archive';
 
 function App() {
   return (
