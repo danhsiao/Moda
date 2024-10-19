@@ -1,34 +1,22 @@
-:root {
- 
-}
-
-
-a {
-  
-}
 a:hover {
   color: #535bf2;
 }
 
-body {
-
+.newsletter-container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
- h1 {
+.title {
   font-size: 22px;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 50;
   margin-top: 200px;
-
 }
 
-p {
+.blurb {
   text-align: center;
   color:gray;
   font-size: 12px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 button {

@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import About from './pages/About';
 import Join from './pages/Join';
 import Archive from './pages/Archive';
-import Archive from './pages/Archive';
+import Newsletter from './pages/Newsletter';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/join' element={<Join/>}/>
         <Route path='/archive' element={<Archive/>}/>
+        <Route path='/newsletter' element={<Newsletter/>}/>
       </Routes>
     </>
   );
