@@ -1,4 +1,5 @@
 import '../styles/Archive.css';
+import React from "react";
 
 function Archive () {
     return (
