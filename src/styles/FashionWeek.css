@@ -45,6 +45,88 @@ p {
     margin: 50px auto;
 }
 
+.allLists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between rows */
+    max-width: 1000px; /* limits width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between; /* Ensure space between the date, event, and description */
+    gap: 20px; /* Space between the date, event, and description */
+    border-bottom: 1px solid white; /* Line between rows */
+    padding: 10px;
+  }
+  
+  .date, .event, .description {
+    flex: 1; /* Makes each column take equal width */
+    padding: 5px; /* Optional: Adds some padding */
+  }
+  
+  .eventDescriptionContainer {
+    display: flex;
+    flex: 2;
+    border-left: 4px solid black;
+    padding-left: 20px;
+  }
+  
+  .event {
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  .description {
+    padding-left: 10px;
+  }
+
+  /* Performances Styles */
+.performances-container {
+  padding: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.performer-names {
+  display: flex;
+  justify-content: space-between; /* Space between the two performer names */
+}
+
+.performer {
+  display: flex;
+  flex-direction: column;
+  font-size: 3em; /* Make the text larger */
+  font-weight: bold; /* Make the text bold */
+  text-align: left;
+}
+
+.performer > div {
+  margin: 0;
+}
+
+.performer-names .performer {
+  line-height: 1.2;
+}
+
+.optima-dance {
+  margin-top: 20px; /* Adjust the margin for spacing */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Space above the video */
+}
+
+.performance-video {
+  width: 100%; /* Make the video responsive */
+  max-width: 600px; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
 video {
     display: block;
     margin-left: auto;
