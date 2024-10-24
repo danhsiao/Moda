@@ -21,3 +21,20 @@ time {
   color: #a7a49f;
   font-size: 12px;
 }
+
+.newsletter-container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 50;
+  margin-top: 200px;
+}
+
+.blurb {
+  text-align: center;
+  color:gray;
+  font-size: 12px;
+}

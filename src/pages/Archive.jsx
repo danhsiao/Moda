@@ -1,8 +1,24 @@
 import '../styles/Archive.css';
 import React from "react";
 
+function Newsletter() {
+    return (
+      <div className="newsletter-container">
+        <div className = "title">
+          <h1>Newsletter Archive</h1>
+        </div>
+  
+        <div className="blurb">
+          <p>Read all about what we have been up to below and subscribe to our newsletter on our home page!</p>
+        </div>
+      </div>
+    );
+  }
+
 function Archive () {
     return (
+        <div>
+            <Newsletter />
         <div className="grid-container">
             <div className="grid-item">
                 <p className="archive-name">005 - Updates & Changes Going Forward</p>
@@ -24,6 +40,7 @@ function Archive () {
                 <p className="archive-name">001 - Welcome to Moda's Newsletter</p>
                 <time datetime="2022-10-21">Oct 21, 2022</time>
             </div>
+        </div>
         </div>
     )
 }
