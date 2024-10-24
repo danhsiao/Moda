@@ -39,6 +39,7 @@ function FashionWeek() {
                 <h1>Spring '24</h1>
                 <img src="FashionWeekSpring24.jpg"></img>
             </div>
+            <List />
             <div>
                 <h1>Fuse: Igniting Innovation</h1>
                 <h1>Fashion Show at Orpheum</h1>
@@ -78,9 +79,29 @@ function FashionWeek() {
                     </details>
                 </div>
             </div>
-            <List />
+            <Performances />
         </div>
     )
 }
+
+function Performances() {
+    return (
+        <div className="performances-container">
+          <h2>With Performances From</h2>
+          <div className="performer-names">
+            <h1 className="performer">Live From Mars</h1>
+            <h1 className="performer optima-dance">Optima Dance</h1>
+          </div>
+          <div className="video-container">
+            {/* Assuming you have a video source */}
+            <video controls className="performance-video">
+              <source src="path_to_your_video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      );    
+
+  }
 
 export default FashionWeek;
