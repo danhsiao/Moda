@@ -1,14 +1,14 @@
-.grid-container {
+.archive-grid-container {
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
     grid-template-rows: 100px;
     column-gap: 50px;
     justify-content: center;
-    height: 800px;
+    height: 400px;
     align-content: center;
 }
 
-.grid-item {
+.archive-grid-item {
   text-align:center;
 }
 
@@ -20,6 +20,7 @@
 time {
   color: #a7a49f;
   font-size: 12px;
+  text-align: center;
 }
 
 .newsletter-container {

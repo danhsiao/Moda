@@ -4,7 +4,6 @@ import Home from "./pages/Home"
 import About from './pages/About';
 import Join from './pages/Join';
 import Archive from './pages/Archive';
-import Newsletter from './pages/Newsletter';
 import FashionWeek from './pages/FashionWeek';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/join' element={<Join/>}/>
         <Route path='/archive' element={<Archive/>}/>
-        <Route path='/newsletter' element={<Newsletter/>}/>
         <Route path='/FashionWeek' element={<FashionWeek/>}/>
       </Routes>
     </>
