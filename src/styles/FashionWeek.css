@@ -47,3 +47,40 @@ details {
 .fashion-show-description {
     margin: 50px auto;
 }
+
+.allLists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between rows */
+    max-width: 1000px; /* limits width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between; /* Ensure space between the date, event, and description */
+    gap: 20px; /* Space between the date, event, and description */
+    border-bottom: 1px solid white; /* Line between rows */
+    padding: 10px;
+  }
+  
+  .date, .event, .description {
+    flex: 1; /* Makes each column take equal width */
+    padding: 5px; /* Optional: Adds some padding */
+  }
+  
+  .eventDescriptionContainer {
+    display: flex;
+    flex: 2;
+    border-left: 4px solid black;
+    padding-left: 20px;
+  }
+  
+  .event {
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  .description {
+    padding-left: 10px;
+  }
