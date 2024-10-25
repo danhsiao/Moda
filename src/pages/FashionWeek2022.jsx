@@ -9,8 +9,12 @@ function FashionWeek2022() {
                 <h1>UW Fashion Week</h1>
                 <h2>Spring '22</h2>
                 <img class='main-image' src=""></img>
+                
             </div>
-            <ImageCarousel data={data.slides}/>
+            <div className="carousel-container">
+                <h2>A Glimpse</h2>
+                <ImageCarousel data={data.slides}/>
+            </div>
         </div>
     )
 }
