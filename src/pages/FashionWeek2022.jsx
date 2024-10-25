@@ -20,6 +20,10 @@ function FashionWeek2022() {
                 <h2>Spring '22</h2>
                 <img class='main-image' src="fashionweek2022/FashionWeekSpring22.jpg"></img>
                 <h2 className="description">This fashion show in collaboration with Liquid featured 45 looks from 8 designers and retailers.</h2>
+                <div className="carousel-container">
+                    <h2>A Glimpse</h2>
+                    <ImageCarousel data={data.slides}/>
+                </div>
                 <div className="grid-container">
                     <div class="grid-item">
                         <img class="logo-image" src='fashionweek2022/1. August Bent.jpg' alt=''></img>
