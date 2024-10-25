@@ -24,11 +24,10 @@ function List() {
     ));
   
     return(
-        <section class = "allLists">
-        {listItems}
+        <section className="allLists">
+            {listItems}
         </section>
     );
-    
   }
 
 function FashionWeek2024() {

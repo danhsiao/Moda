@@ -3,22 +3,12 @@ import { ImageCarousel } from "../components/ImageCarousel";
 import data from "../data/fashionWeek2022Data.json";
 
 function FashionWeek2022() {
-    const LABELS_TO_IMAGES = [
-        ["August Bent", "1. August Bent.jpg"],
-        ["Claudia Schwiesow", "2. Claudia Schwiesow.JPG"],
-        ["Lindsey Swiggum", "3. Lindsey Swiggum.jpg"],
-        ["Baxter", "4. Baxter_.jpg"]
-        ["Nicole", "5. Nicole.jpg"],
-        ["Ian Vailliencourt", "6. Ian Vailliencourt.png"],
-        ["Mia Quitlong Staszcuk", "7. Mia Quitlong Staszcuk.mov"],
-        ["Upshift Swap Shop", "8. Upshift Swap Shop.JPG"]
-    ]
     return (
         <div>
             <div className="container">
                 <h1>UW Fashion Week</h1>
                 <h2>Spring '22</h2>
-                <img class='main-image' src="fashionweek2022/FashionWeekSpring22.jpg"></img>
+                <img class='main-image' src="fashionweek2022/FashionWeekSpring22.jpg" alt=""></img>
                 <h2 className="description">This fashion show in collaboration with Liquid featured 45 looks from 8 designers and retailers.</h2>
                 <div className="grid-container">
                     <div class="grid-item">
