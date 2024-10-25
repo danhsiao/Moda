@@ -1,16 +1,84 @@
 {
     "slides": [
         {
-            "src": "",
-            "alt": ""
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-1.jpeg",
+            "alt": "First image for 2022 fashion show"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-2.jpeg",
+            "alt": "Second image for 2022 fashion show"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-3.jpeg",
+            "alt": "Third image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-4.jpeg",
+            "alt": "Fourth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-5.jpeg",
+            "alt": "Fifth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-6.jpeg",
+            "alt": "Sixth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-7.jpeg",
+            "alt": "Seventh image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-8.jpeg",
+            "alt": "Eigth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-9.jpeg",
+            "alt": "Ninth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-10.jpeg",
+            "alt": "Tenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-11.jpeg",
+            "alt": "Eleventh image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-12.jpeg",
+            "alt": "Twelfth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-13.jpeg",
+            "alt": "Thriteenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-14.jpeg",
+            "alt": "Fourteenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-15.jpeg",
+            "alt": "Fifteenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-16.jpeg",
+            "alt": "Sixteenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-17.jpeg",
+            "alt": "Seventeenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-18.jpeg",
+            "alt": "Eighteenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-19.jpeg",
+            "alt": "Nineteenth image for 2022 fashion show"
+        },
+        {
+            "src": "fashionweek2022/carousel-images/carousel-image-2022-20.jpeg",
+            "alt": "Twentieth image for 2022 fashion show"
         }
     ]
 }

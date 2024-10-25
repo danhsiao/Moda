@@ -1,3 +1,7 @@
+import "../styles/FashionWeek.css"
+import { ImageCarousel } from "../components/ImageCarousel";
+import data from "../data/fashionWeek2022Data.json";
+
 function FashionWeek2022() {
     const LABELS_TO_IMAGES = [
         ["August Bent", "1. August Bent.jpg"],
