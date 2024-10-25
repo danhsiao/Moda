@@ -42,7 +42,7 @@ function FashionWeek2024() {
                 </h2>
             </div>
             <List />
-            <div>
+            <div className='container'>
                 <h1>Fuse: Igniting Innovation</h1>
                 <h2>Spring '24</h2>
                 <video controls> 
@@ -92,8 +92,9 @@ function FashionWeek2024() {
                         <button class="designer-button">Mia Quitlong Staszcuk</button>
                     </div>
                 </div>
+                <Performances />
             </div>
-            <Performances />
+            
         </div>
     )
 }
