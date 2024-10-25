@@ -37,7 +37,7 @@ function FashionWeek2024() {
             <div>
                 <h1>UW Fashion Week</h1>
                 <h2>Spring '24</h2>
-                <img class="main-image" src="FashionWeekSpring24.jpg" alt=''></img>
+                <img class="main-image" src="fashionweek2024/FashionWeekSpring24.jpg" alt=''></img>
                 <h2 class="description">Moda’s execution of UW Fashion Week in the Spring of 2024 was a spectacle of artistic collaboration within the Madison community.
                 </h2>
             </div>
@@ -52,43 +52,43 @@ function FashionWeek2024() {
 
                 <div class = "grid-container">
                     <div class= "grid-item">
-                        <img class="logo-image" src='abbeyxiong.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/abbeyxiong.jpg' alt=''></img>
                         <button class="designer-button">Abbey Xiong</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='gracieharshaw.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/gracieharshaw.jpg' alt=''></img>
                         <button class="designer-button">Gracie Harshaw</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='upshift.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/upshift.jpg' alt=''></img>
                         <button class="designer-button">Upshift Swap Shop</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='emmafogarty.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/emmafogarty.jpg' alt=''></img>
                         <button class="designer-button">Emma Fogarty</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='rethreads.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/rethreads.jpg' alt=''></img>
                         <button class="designer-button">ReThreads</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='edenmeidl.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/edenmeidl.jpg' alt=''></img>
                         <button class="designer-button">Eden Meidl</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='newday.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/newday.jpg' alt=''></img>
                         <button class="designer-button">A New Day Boutique</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='vaillencorp.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/vaillencorp.jpg' alt=''></img>
                         <button class="designer-button">Ian Valliencourt</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image yasminhill" src='yasminhill.jpg' alt=''></img>
+                        <img class="logo-image yasminhill" src='fashionweek2024/yasminhill.jpg' alt=''></img>
                         <button class="designer-button" >Yasmin Hill</button>
                     </div>
                     <div class= "grid-item">
-                        <img class="logo-image" src='qsm.jpg' alt=''></img>
+                        <img class="logo-image" src='fashionweek2024/qsm.jpg' alt=''></img>
                         <button class="designer-button">Mia Quitlong Staszcuk</button>
                     </div>
                 </div>
