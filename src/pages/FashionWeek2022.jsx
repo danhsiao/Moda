@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/FashionWeek.css"
 import { ImageCarousel } from "../components/ImageCarousel";
 import data from "../data/fashionWeek2022Data.json";
