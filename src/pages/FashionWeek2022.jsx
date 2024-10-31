@@ -2,10 +2,12 @@ import React from "react";
 import "../styles/FashionWeek.css"
 import { ImageCarousel } from "../components/ImageCarousel";
 import data from "../data/fashionWeek2022Data.json";
+import Navbar from "../components/Navbar";
 
 function FashionWeek2022() {
     return (
         <div>
+            <Navbar/>
             <div className="container">
                 <h1>UW Fashion Week</h1>
                 <h2>Spring '22</h2>

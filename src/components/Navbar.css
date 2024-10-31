@@ -1,0 +1,29 @@
+.navbar-nav {
+    display:flex;
+    padding: 40px;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.navbar-nav > a {
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: grey;
+    transition:1s;
+}
+
+.navbar-nav #navTitle {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.navbar-nav a:hover {
+    color:black;
+    transition:1s;
+}

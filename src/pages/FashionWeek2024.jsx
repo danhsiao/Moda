@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/FashionWeek.css';
+import Navbar from "../components/Navbar";
 
 function List() {
     const dates = ["4/19", "4/18", "4/17", "4/16", "4/15"];
@@ -34,6 +35,7 @@ function List() {
 function FashionWeek2024() {
     return (
         <div>
+            <Navbar/>
             <div>
                 <h1>UW Fashion Week</h1>
                 <h2>Spring '24</h2>

@@ -1,5 +1,6 @@
 import '../styles/Archive.css';
 import React from "react";
+import Navbar from '../components/Navbar';
 
 function Newsletter() {
     return (
@@ -17,6 +18,8 @@ function Newsletter() {
 
 function Archive () {
     return (
+      <div>
+        <Navbar/>
         <div>
             <Newsletter />
         <div className="archive-grid-container">
@@ -40,6 +43,7 @@ function Archive () {
                 <p className="archive-name">001 - Welcome to Moda's Newsletter</p>
                 <time datetime="2022-10-21">Oct 21, 2022</time>
             </div>
+        </div>
         </div>
         </div>
     )

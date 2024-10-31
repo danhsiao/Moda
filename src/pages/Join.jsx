@@ -1,8 +1,11 @@
 import React from "react";
 import "../styles/join.css"
+import Navbar from "../components/Navbar";
 
 function Join() {
     return (
+    <div>
+        <Navbar/>
         <div className = "join-page">
             <div className = "join-block">
                 <h2><strong>Join Our Team!</strong></h2>
@@ -26,6 +29,7 @@ function Join() {
             </div>
             <div className="separator"></div>   
         </div>
+    </div>
                         
     );
 }

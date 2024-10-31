@@ -24,7 +24,7 @@ h2 {
     font-family: "Times New Roman", Times, serif;
 }
 
-p {
+.container > p {
     text-align: center;
     margin: auto;
     width: 50%; 
