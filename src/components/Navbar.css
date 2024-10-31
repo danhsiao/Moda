@@ -13,7 +13,7 @@
     padding: 0px 20px 0px 20px;
     text-decoration: none;
     color: grey;
-    transition:1s;
+    transition:0.5s;
 }
 
 .navbar-nav #navTitle {
@@ -25,5 +25,5 @@
 
 .navbar-nav a:hover {
     color:black;
-    transition:1s;
+    transition:0.5s;
 }
