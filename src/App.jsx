@@ -6,6 +6,7 @@ import Join from './pages/Join';
 import Archive from './pages/Archive';
 import FashionWeek2024 from './pages/FashionWeek2024';
 import FashionWeek2022 from './pages/FashionWeek2022';
+import FashionWeek2023 from './pages/FashionWeek2023';
 import FashionWeek2021 from './pages/FashionWeek2021';
 
 function App() {
@@ -17,8 +18,10 @@ function App() {
         <Route path='/join' element={<Join/>}/>
         <Route path='/archive' element={<Archive/>}/>
         <Route path='/fashion-week-2024' element={<FashionWeek2024/>}/>
+        <Route path='/fashion-week-2023' element={<FashionWeek2023/>}/>
         <Route path='/fashion-week-2022' element={<FashionWeek2022/>}/>
         <Route path='/fashion-week-2021' element={<FashionWeek2021/>}/>
+        
       </Routes>
     </>
   );
