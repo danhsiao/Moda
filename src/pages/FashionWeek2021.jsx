@@ -11,10 +11,10 @@ function FashionWeek2021() {
                 src="https://www.youtube.com/embed/uucNjZjlCOQ">
             </iframe>
             <h2>Finale Fashion Show Lineup</h2>
-            <h3>Retailers</h3>
-            <h3>La Vie Luchanni   ReThreads   Trash Vintage   August </h3>
-            <h3>Student Designers </h3>
-            <h3>Nzinga Acosta   Mai Nou Her   Sarah Troy</h3>
+            <p class="lineupCategory2021"><i>Retailers</i></p>
+            <p class="lineup2021"><i>La Vie Luchanni    ReThreads    Trash Vintage    August </i></p>
+            <p class="lineupCategory2021"><i>Student Designers</i></p>
+            <p class="lineup2021"><i>Nzinga Acosta   Mai Nou Her    Sarah Troy</i></p>
         </div>
     )
 }
