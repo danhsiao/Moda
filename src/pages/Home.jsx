@@ -10,8 +10,13 @@ function Home() {
                 <Navbar/>
             </div>
             <div className="under-section">
-                <h2>Latest Issues</h2>
+                <div className="home-text"><h2>Latest Issues</h2></div>
                 <ImageCarousel data={data.slides}/>
+                <p className="gap"></p>
+                <div className="home-text"><h2>Latest Online</h2></div>
+                <div className="latest-online">
+
+                </div>
             </div>
         </div>
     )
