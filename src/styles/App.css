@@ -17,6 +17,11 @@
   transition: 0.5s;
 }
 
+.title-section > .navbar-container > .navbar-nav > div > a {
+  color:white;
+  transition: 0.5s;
+}
+
 .title-section > .navbar-container > .navbar-nav a:hover {
   color: darkgray;
   transition:0.5s;
