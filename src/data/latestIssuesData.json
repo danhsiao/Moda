@@ -1,0 +1,32 @@
+{
+    "slides": [
+        {
+            "src": "latestIssues/moda-latest-1.jpeg",
+            "alt": "First image for latest issues"
+        },
+        {
+            "src": "latestIssues/moda-latest-2.jpeg",
+            "alt": "First image for latest issues"
+        },
+        {
+            "src": "latestIssues/moda-latest-3.jpeg",
+            "alt": "First image for latest issues"
+        },
+        {
+            "src": "latestIssues/moda-latest-4.jpeg",
+            "alt": "First image for latest issues"
+        },
+        {
+            "src": "latestIssues/moda-latest-5.jpeg",
+            "alt": "First image for latest issues"
+        },
+        {
+            "src": "latestIssues/moda-latest-6.jpeg",
+            "alt": "First image for latest issues"
+        },
+        {
+            "src": "latestIssues/moda-latest-7.jpeg",
+            "alt": "First image for latest issues"
+        }
+    ]
+}

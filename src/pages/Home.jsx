@@ -1,25 +1,18 @@
 import React from "react";
-import logo from "../logo.svg"
 import Navbar from "../components/Navbar";
+import { ImageCarousel } from "../components/ImageCarousel";
+import data from "../data/latestIssuesData.json";
 
 function Home() {
     return (
         <div className="App">
-            <Navbar/>
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                Learn React
-                </a>
-            </header>
+            <div className="title-section">
+                <Navbar/>
+            </div>
+            <div className="under-section">
+                <h2>Latest Issues</h2>
+                <ImageCarousel data={data.slides}/>
+            </div>
         </div>
     )
 }
