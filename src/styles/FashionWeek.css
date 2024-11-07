@@ -187,3 +187,19 @@ iframe {
   align-items: center;
   flex-direction: column;
 }
+
+.lineupCategory2021 {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+}
+
+.lineup2021 {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+
