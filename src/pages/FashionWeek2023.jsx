@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 function FashionWeek2023(){
     return(
         <div>
+            <Navbar/>
             <div className="container">
                 <h1>Moda x Liquid Fashion Show</h1>
                 <h2>Fall '23</h2>
