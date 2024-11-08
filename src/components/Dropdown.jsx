@@ -4,7 +4,7 @@ import DropdownLink from "./DropdownLink";
 export default function Dropdown(props) {
     let links = [];
     for(const key in props.links){
-        links.push(<DropdownLink key={key} text={key} />);
+        links.push(<DropdownLink key={key} text={key} destination={"./" + props.links[key]}  />);
     }
     // props.links.map((i, link) => {
     // })
