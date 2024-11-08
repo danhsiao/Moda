@@ -10,7 +10,7 @@
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease; 
-    width: 50%;
+    width: 30%;
     max-height: 100%;
 }
 
@@ -25,6 +25,14 @@
     width: auto;
     max-width: 100%;
     max-height: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Constrain image height to fit carousel */
+    object-fit: contain; /* Ensure the full image is visible without cropping */
+    border-radius: 0.5rem;
 }
 
 .slide-hidden {
