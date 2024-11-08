@@ -17,6 +17,11 @@
   transition: 0.5s;
 }
 
+.title-section > .navbar-container > .navbar-nav > div > a {
+  color:white;
+  transition: 0.5s;
+}
+
 .title-section > .navbar-container > .navbar-nav a:hover {
   color: darkgray;
   transition:0.5s;
@@ -26,14 +31,25 @@
   color:white;
 }
 
+.gap {
+  padding: 30px;
+}
+
 .under-section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 73px 175px;
 }
 
-.under-section > h2 {
+.home-text {
   padding: 25px 0px 5px 0px;
-  align-self: flex-start;
-  justify-self: flex-start;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
 }

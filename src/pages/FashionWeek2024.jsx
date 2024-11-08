@@ -36,7 +36,7 @@ function FashionWeek2024() {
     return (
         <div>
             <Navbar/>
-            <div>
+            <div className="container">
                 <h1>UW Fashion Week</h1>
                 <h2>Spring '24</h2>
                 <img class="main-image" src="fashionweek2024/FashionWeekSpring24.jpg" alt=''></img>

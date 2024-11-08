@@ -15,6 +15,35 @@ function Lifestyle() {
         <div>
             <Navbar />
             <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
+            <component image="" title="" description="" date=""></component>
         </div>
     )
 }

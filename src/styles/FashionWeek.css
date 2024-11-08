@@ -15,7 +15,7 @@ h1 {
     padding: 10px; */
 }
 
-h2 {
+.container > h2 {
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
