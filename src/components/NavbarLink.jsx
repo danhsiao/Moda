@@ -17,7 +17,7 @@ export default function NavbarLink(props) {
 
   return (
     <div onMouseOver={setHover} onMouseOut={setNotHover} style={{cursor:'pointer'}}>
-        <a>{props.text}</a>
+        <a href={Object.values(props.links)[0]}>{props.text}</a>
         <Dropdown isDisplayed={dropdownEnabled} links={props.links} />
     </div>
   )
