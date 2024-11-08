@@ -1,18 +1,18 @@
 h1 {
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
     width: 50%;
-    color: rgb(221, 22, 29);
-    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Lucida Grande, 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
 .main-image {
     display: block;
     margin: auto;
-    max-width: 40%;
+    width: 60%;
     height: auto;
-    border: 3px solid black;
-    padding: 10px;
+    /* border: 3px solid black;
+    padding: 10px; */
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
     margin-bottom: 20px;
     width: 50%;
     color: black;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Lucida Grande, 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
 .container > p {
@@ -147,20 +147,24 @@ iframe {
 .logo-image {
     display: block;
     margin: auto;
-    max-width: 75%;
-    height: auto;
+    width: 350px;
+    height: 300px;
     align-self: center;
+    border: 2px solid rgb(152, 152, 152);
+    padding: 5px;
 }
 
 .designer-button {
-    color: black;
-    font-size: 20px;
-    background-color: rgb(204, 211, 218);
-    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(4, 49, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Lucida Grande, 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     text-align: center;
     bottom: 0;
-    padding: 15px;
+    height: 10%;
+    width: 45%;
     align-self: center;
+    border-radius: 20px;
 }
 
 .grid-item {
@@ -169,8 +173,11 @@ iframe {
 }
 
 .yasminhill {
-    max-width: 60%;
-    height: auto;
+    width: 350px;
+    height: 300px;
+    align-self: center;
+    border: 2px solid rgb(152, 152, 152);
+    padding: 5px;
 }
 
 .carousel-container {
