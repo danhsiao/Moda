@@ -5,9 +5,10 @@ import "./Navbar.css"
 
 function Navbar() {
     const FASHION_LINKS = {
-        "FASHION WEEK 2022": "fashion-week-2022",
-        "FASHION WEEK 2023": "fashion-week-2023",
         "FASHION WEEK 2024": "fashion-week-2024",
+        "FASHION WEEK 2023": "fashion-week-2023",
+        "FASHION WEEK 2022": "fashion-week-2022",
+        "FASHION WEEK 2021": "fashion-week-2021",
     }
 
     const ISSUES_LINKS = {
