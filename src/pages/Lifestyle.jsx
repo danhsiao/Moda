@@ -10,40 +10,18 @@ function component(image, title, description, date) {
     )
 }
 
+function allLifeStyleComponents(data) {
+    for (let i =0; i < data.length; i++) {
+        <component image = {data[i].image} title = {data[i].title} description = {data[i].description} date = {data[i].data}/>
+    }
+}
+
 function Lifestyle() {
+
     return(
         <div>
             <Navbar />
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
-            <component image="" title="" description="" date=""></component>
+            <allLifeStyleComponents data = {JSON.parse(lifestyledata.json)}/>
         </div>
     )
 }
