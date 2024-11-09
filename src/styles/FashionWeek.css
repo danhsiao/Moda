@@ -209,4 +209,57 @@ iframe {
   margin: 20px auto;
 }
 
+.section {
+  margin-top: 40px;
+}
+
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title::before,
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background-color: pink;
+  margin: 0 10px;
+}
+
+.dropdown-container {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid pink;
+  border-radius: 4px;
+  background-color: #ffe6f0;
+  color: #000000;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='pink' d='M0 3l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  cursor: pointer;
+}
+
+.dropdown:focus {
+  outline: none;
+  border-color: #ff69b4;
+}
+
+
 
