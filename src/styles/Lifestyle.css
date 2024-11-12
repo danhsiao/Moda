@@ -1,18 +1,16 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 65px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 20px;
-  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
   .gallery-item {
-    overflow: hidden;
     transition: transform 0.3s;
     width: 250px;
     height: 400px;
+    margin: 10px 10px;
   }
   
   .gallery-item:hover {

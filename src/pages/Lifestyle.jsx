@@ -2,29 +2,28 @@ import React from "react";
 import '../styles/Lifestyle.css';
 import Navbar from "../components/Navbar";
 
-function component(image, title, description, date) {
+function Component(props) {
     return(
         <div className="gallery-item">
-        <img src={image} alt={image} className = "gallery-image"></img>
-        <h2>{title}</h2>
-        <h3>{description}</h3>
-        <h4>{date}</h4>
+            <img src={props.image} alt={props.image} className = "gallery-image"></img>
+            <h2>{props.title}</h2>
+            <h3>{props.description}</h3>
+            <h4>{props.date}</h4>
         </div>
     );
 }
 
-function allLifeStyleComponents(data) {
-    for (let i =0; i < data.length; i++) {
-        <component image = {data[i].image} title = {data[i].title} description = {data[i].description} date = {data[i].data}/>
-    }
-}
-
 function Lifestyle() {
-
+    const lifestyleData = require('../data/lifestyledata.json');
     return(
         <div>
             <Navbar />
-            <allLifeStyleComponents data = {JSON.parse(lifestyledata.json)}/>
+            <h1>Lifestyle</h1>
+            <div class = "gallery">
+                {lifestyleData.lifestylecomponents.map((component,index) => (
+                    <Component key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date}/>
+                ))}
+            </div>
         </div>
     )
 }
