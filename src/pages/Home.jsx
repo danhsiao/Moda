@@ -15,7 +15,6 @@ function Home() {
                 <p className="gap"></p>
                 <div className="home-text"><h2>Latest Online</h2></div>
                 <div className="latest-online">
-
                 </div>
             </div>
         </div>

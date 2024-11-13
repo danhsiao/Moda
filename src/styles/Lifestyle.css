@@ -4,37 +4,4 @@
     justify-content:center;
     margin-left: 5%;
     margin-right: 5%;
-  }
-  
-  .gallery-item {
-    transition: transform 0.3s;
-    width: 250px;
-    height: 400px;
-    margin: 10px 10px;
-  }
-  
-  .gallery-item:hover {
-    transform: scale(1.05);
-  }
-  
-  
-  .gallery-image {
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
-  }
-  
-  .gallery-item h2, .gallery-item h3, .gallery-item h4 {
-    margin: 8px 0;
-    color: grey;
-    font-weight: 100;
-  }
-  
-  .gallery-item h2 {
-    font-size: larger;
-  }
-  
-  .gallery-item h3 {
-    font-size: medium;
-    font-style: italic;
-  }
+}
