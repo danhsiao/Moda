@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import "./ImageCarousel.css";
 
@@ -6,12 +6,20 @@ export const ImageCarousel = ({ data, slidesToShow = 3 }) => {
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
-    setSlide((prev) => (prev + 1 >= data.length ? 0 : prev + 1)); // Increment by 1 to show each image individually
+    setSlide((prev) => (prev + 1 >= data.length - slidesToShow ? 0 : prev + 1)); // Increment by 1 to show each image individually
   };
 
   const prevSlide = () => {
-    setSlide((prev) => (prev - 1 < 0 ? data.length - 1 : prev - 1)); // Decrement by 1 to show each image individually
+    setSlide((prev) => (prev - 1 < 0 ? data.length - slidesToShow : prev - 1)); // Decrement by 1 to show each image individually
   };
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      nextSlide()
+    }, 5000)
+
+    return () => clearInterval(timer);
+  })
 
   return (
     <div className="carousel">

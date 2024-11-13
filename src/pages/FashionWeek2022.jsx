@@ -51,7 +51,7 @@ function FashionWeek2022() {
                 </div>
                 <div className="carousel-container">
                     <h2>A Glimpse</h2>
-                    <ImageCarousel data={data.slides}/>
+                    <ImageCarousel data={data.slides} slidesToShow={1}/>
                 </div>
             </div>
         </div >

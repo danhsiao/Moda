@@ -17,7 +17,7 @@
 .slide {
     border-radius: 0.5rem;
     box-shadow: 0px 0px 7px #666;
-    flex: 0 0 33.33%; /* Adjust width for 3 images at a time */
+    /* flex: 0 0 33.33%; Adjust width for 3 images at a time */
     height: auto; /* Allow height to adjust automatically */
     display: flex;
     justify-content: center;
@@ -27,8 +27,8 @@
     max-height: 100%;
 }
 
-.slide img {
-    width: 100%;
+.slide > img {
+    width: auto;
     height: auto; /* Maintain aspect ratio */
     max-height: 100%; /* Constrain image height to fit carousel */
     object-fit: contain; /* Ensure the full image is visible without cropping */

@@ -11,7 +11,7 @@ function Home() {
             </div>
             <div className="under-section">
                 <div className="home-text"><h2>Latest Issues</h2></div>
-                <ImageCarousel data={data.slides}/>
+                <ImageCarousel data={data.slides} slidesToShow={1}/>
                 <p className="gap"></p>
                 <div className="home-text"><h2>Latest Online</h2></div>
                 <div className="latest-online">
