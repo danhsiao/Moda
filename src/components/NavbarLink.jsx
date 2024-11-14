@@ -8,11 +8,9 @@ export default function NavbarLink(props) {
 
   const setHover = () => {
     setDropdownEnabled(true);
-    console.log(dropdownEnabled);
   }
   const setNotHover = () => {
     setDropdownEnabled(false)
-    console.log(dropdownEnabled);
   }
 
   return (

@@ -10,9 +10,11 @@ function Lifestyle() {
             <Navbar />
             <h1>Lifestyle</h1>
             <div className="gallery">
-                {lifestyleData.lifestylecomponents.map((component,index) => (
-                    <Card key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date}/>
-                ))}
+                {
+                    lifestyleData.lifestylecomponents.map((component,index) => (
+                        <Card key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date}/>
+                    ))
+                }
             </div>
         </div>
     )

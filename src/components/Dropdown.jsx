@@ -9,7 +9,7 @@ export default function Dropdown(props) {
     // props.links.map((i, link) => {
     // })
     return (
-        <div style={{display: props.isDisplayed ? "block" : "none"}}>
+        <div style={{display: props.isDisplayed ? "block" : "none"}} className="navbox">
             {links}
         </div>
     )
