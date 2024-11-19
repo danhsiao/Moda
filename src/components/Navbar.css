@@ -37,6 +37,7 @@
 }
 
 .navbox {
+    /* TODO: make navbox fade-in and out work */
     background-color: black; /* SHOULD be transparent, but animation not currently working */
     animation-duration: 1s; /* same as transition duration */
     animation-timing-function: linear; /* kind of same as transition timing */

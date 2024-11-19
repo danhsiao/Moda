@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import "./ImageCarousel.css";
 
+// TODO: fix image scaling for carousel (specifically for fashion-week-2022)
+// TODO: fix "slide number" so that there is no white space when scrolling
 export const ImageCarousel = ({ data, slidesToShow = 3 }) => { 
   const [slide, setSlide] = useState(0);
 
