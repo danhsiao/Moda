@@ -3,15 +3,15 @@ import '../styles/Sections.css';
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 
-function Lifestyle() {
-    const lifestyleData = require('../data/lifestyledata.json');
+function Culture() {
+    const cultureData = require('../data/culturedata.json');
     return(
         <div>
             <Navbar />
-            <h1>Lifestyle</h1>
+            <h1>Culture</h1>
             <div className="gallery">
                 {
-                    lifestyleData.lifestylecomponents.map((component,index) => (
+                    cultureData.culturecomponents.map((component,index) => (
                         <Card key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date}/>
                     ))
                 }
@@ -20,4 +20,4 @@ function Lifestyle() {
     )
 }
 
-export default Lifestyle;
+export default Culture;

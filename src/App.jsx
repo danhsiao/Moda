@@ -9,6 +9,7 @@ import FashionWeek2022 from './pages/FashionWeek2022';
 import FashionWeek2023 from './pages/FashionWeek2023';
 import FashionWeek2021 from './pages/FashionWeek2021';
 import Lifestyle from './pages/Lifestyle';
+import Culture from './pages/Culture';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path='/fashion-week-2022' element={<FashionWeek2022/>}/>
         <Route path='/fashion-week-2021' element={<FashionWeek2021/>}/>
         <Route path='/lifestyle' element={<Lifestyle/>}/>
-        
+        <Route path='/culture' element={<Culture/>}/>
       </Routes>
     </>
   );
