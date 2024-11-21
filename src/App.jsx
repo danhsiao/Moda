@@ -27,9 +27,6 @@ function App() {
         <Route path='/lifestyle' element={<Lifestyle/>}/>
         <Route path='/culture' element={<Culture/>}/>
         <Route path='/fashion' element={<Fashion/>}/>
-
-
-
       </Routes>
     </>
   );
