@@ -61,9 +61,30 @@ h1 {
     padding: 10px;
   }
   
-  .date, .event, .description {
-    flex: 1; /* Makes each column take equal width */
-    padding: 5px; /* Optional: Adds some padding */
+  .event {
+    flex: 1;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* Semi-bold */
+    font-size: 1.2em;
+    color: #333; /* Dark color for prominence */
+  }
+  
+  .description {
+    flex: 1;
+    padding: 5px;
+    font-family: 'Caveat', cursive;
+    font-weight: 400; /* Regular weight */
+    font-size: 1.2em;
+    color: #ac5555; /* Medium gray for subtlety */
+  }
+
+  .date {
+  padding: 7px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  color: #6c757d; /* A cool gray with a hint of blue */
+
   }
   
   .eventDescriptionContainer {
