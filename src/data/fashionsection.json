@@ -1,184 +1,64 @@
 {
     "fashionsectioncomponents": [
         {
-            "image": "public/Dressing For Revenge.jpg",
+            "image": "fashionsectionimages/Dressing For Revenge.jpg",
             "title": "Dressing For Revenge",
             "description": "The story behind statement",
             "date": "Dec 2, 2022"
         },
         {
-            "image": "Moda/public/Dressing For Revenge.jpg",
+            "image": "fashionsectionimages/Permanent Accessories.jpeg",
             "title": "Permanent Accessories",
             "description": "Tattos and piercings losing their taboo",
             "date": "Nov 29, 2022"
         },
         {
-            "image": "Moda/public/The Liberation Of Legs.jpg",
+            "image": "fashionsectionimages/The Liberation Of Legs.jpg",
             "title": "The Liberation of Legs",
             "description": "How the anti-conservative micro mini skirt breeds confidence",
             "date": "Nov 27, 2022"
         },
         {
-            "image": "Moda/public/The Darkside Of Fashion.jpeg",
+            "image": "fashionsectionimages/The Darkside Of Fashion.jpeg",
             "title": "The Darkside of Fashion",
             "description": "The emergence of leather for everyday wear",
             "date": "Nov 25, 2022"
         },
         {
-            "image": "Moda/public/Sci-fi Becomes Reality.jpeg",
+            "image": "fashionsectionimages/Sci-fi Becomes Reality.jpeg",
             "title": "Sci-fi Becomes Reality",
             "description": "Coperni introduces spray-on clothing in Paris Fashion Week",
             "date": "Oct 30, 2022"
         },
         {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
+            "image": "fashionsectionimages/How Fashion Week Put NYC in a Trance.jpeg",
+            "title": "How Fashion Week Put NYC in a Trance",
+            "description": "A summary of the collections and themes of September 2022 New York Fashion Week",
+            "date": "Oct 29, 2022"
         },
         {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
+            "image": "fashionsectionimages/Dark Lord.jpg",
+            "title": "“Dark Lord” Pays Homage to Ancient Egypt",
+            "description": "Rick Owens’ SS23 collection allows the audience to enjoy the clothes we have now while admiring what has survived in the past.",
+            "date": "Oct 28, 2022"
         },
         {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
+            "image": "fashionsectionimages/Diving Deep into the Rabbit Hole.jpeg",
+            "title": "Diving Deep Into “The Rabbit Hole”",
+            "description": "A fashion resurrection of “The Matrix”",
+            "date": "Oct 27, 2022"
         },
         {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
+            "image": "fashionsectionimages/If Aliens Could walk the runway.jpeg",
+            "title": "If Aliens Could Walk The Runway",
+            "description": "Unlikely muses in psychedelic fashion",
+            "date": "Oct 26, 2022"
         },
         {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
-        },
-        {
-            "image": "",
-            "title": "",
-            "description": "",
-            "date": ""
+            "image": "fashionsectionimages/Sticky Sweaty and Stylish.jpeg",
+            "title": "Sticky, Sweaty–and Stylish?",
+            "description": "Latex’s transition from a fetish to a fashion",
+            "date": "Oct 22, 2022"
         }
     ]
 }
