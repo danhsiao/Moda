@@ -10,7 +10,7 @@ import FashionWeek2023 from './pages/FashionWeek2023';
 import FashionWeek2021 from './pages/FashionWeek2021';
 import Lifestyle from './pages/Lifestyle';
 import Culture from './pages/Culture';
-import Fashion from 'Moda/src/pages/Fashion.jsx';
+import Fashion from './Moda/src/pages/Fashion.jsx';
 
 function App() {
   return (
@@ -27,6 +27,8 @@ function App() {
         <Route path='/lifestyle' element={<Lifestyle/>}/>
         <Route path='/culture' element={<Culture/>}/>
         <Route path='/fashion' element={<Fashion/>}/>
+
+
 
       </Routes>
     </>

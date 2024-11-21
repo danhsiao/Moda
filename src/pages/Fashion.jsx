@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 
 function Fashion() {
-    const fashionSection = require('/Users/nayanajacob/Desktop/Moda Project/Moda/src/data/fashionsection.json');
+    const fashionSection = require('Moda/src/data/fashionsection.json');
     return(
         <div>
             <Navbar />
