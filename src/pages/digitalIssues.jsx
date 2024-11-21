@@ -9,7 +9,7 @@ function DigitalIssues() {
         <div>
             <Navbar />
             <h1>Digital Issues</h1>
-            <div className="gallery">
+            <div className="issues">
                 {
                     digitalIssues.digitalIssues.map((component,index) => (
                         <Card key={index} image = {component.image}/>
