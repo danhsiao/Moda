@@ -1,61 +1,99 @@
 {
     "digitalIssues": [
         {
-            "src": "digital issues images/CRUSH+cover+v5.png"
+            "image": "digitalIssuesImages/CRUSH+cover+v5.png"
         },
         {
-            "src": "digital issues images/GLAMOUR+v1111.png"
+
+            "image": "digitalIssuesImages/GLAMOUR+v1111.png"
         },
         {
-            "src": "digital issues images/TRANCE_Cover.jpeg"
-        },
-        {
-            "src":""
-        },
-        {
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
-        },{
-            "src":""
+
+            "image": "digitalIssuesImages/TRANCE_Cover.jpeg"
+        }, {
+
+            "image": "digitalIssuesImages/Breeze_Final_COVER.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/The Beacon.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/romancecover.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/subversivecover.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/gloss.jpeg"
+        }, {
+
+            "image": "digitalIssuesImages/RawCover.jpeg"
+        }, {
+
+            "image": "digitalIssuesImages/hexcover.jpeg"
+        }, {
+
+            "image": "digitalIssuesImages/FlirtCoverFinal.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/fable.png"
+        }, {
+
+            "image": "digitalIssuesImages/Oasis.png"
+        }, {
+
+            "image": "digitalIssuesImages/fatale_cover.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/plastic21_cover.jpeg"
+        }, {
+
+            "image": "digitalIssuesImages/regal_dec20_cover.jpeg"
+        }, {
+
+            "image": "digitalIssuesImages/melodrama.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/Muse.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/Honey.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/youth.jpg"
+        }, {
+
+            "image": "digitalIssuesImages/nasty.jpg"
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
+        }, {
+
+            "image": ""
         }
     ]
 }

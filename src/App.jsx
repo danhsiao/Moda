@@ -11,6 +11,7 @@ import FashionWeek2021 from './pages/FashionWeek2021';
 import Lifestyle from './pages/Lifestyle';
 import Culture from './pages/Culture';
 import Fashion from './pages/Fashion';
+import DigitalIssues from './pages/digitalIssues';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path='/lifestyle' element={<Lifestyle/>}/>
         <Route path='/culture' element={<Culture/>}/>
         <Route path='/fashion' element={<Fashion/>}/>
+        <Route path='/digital' element={<DigitalIssues/>}/>
+
       </Routes>
     </>
   );
