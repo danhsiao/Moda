@@ -4,6 +4,7 @@ import { ImageCarousel } from "../components/ImageCarousel";
 import data from "../data/latestIssuesData.json";
 import Card from "../components/Card";
 import lifestyleData from "../data/lifestyledata.json";
+import cultureData from "../data/culturedata.json";
 
 function Home() {
     return (
