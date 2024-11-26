@@ -12,6 +12,7 @@ import Lifestyle from './pages/Lifestyle';
 import Culture from './pages/Culture';
 import Fashion from './pages/Fashion';
 import DigitalIssues from './pages/digitalIssues';
+import Art from './pages/Art';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/culture' element={<Culture/>}/>
         <Route path='/fashion' element={<Fashion/>}/>
         <Route path='/digital' element={<DigitalIssues/>}/>
+        <Route path='/art' element={<Art/>}/>
 
       </Routes>
     </>

@@ -1,0 +1,213 @@
+{
+    "artComponents": [
+        {
+            "image": "artimages/Without-remorse-or-permission.jpeg",
+            "title": "Without Remorse or Permission",
+            "description": "What a Marvel hero can tell us about female anger",
+            "date": "Dec 1, 2022"
+        },
+
+        {
+            "image": "artimages/tainted-spotlight.jpeg",
+            "title": "The Tainted Spotlight",
+            "description": "The evolution of women in film: from passive side characters to vicious stars",
+            "date": "Nov 26, 2022"
+        },
+
+        {
+            "image": "artimages/Vicious_Meyerson_WomeninComics-1.png",
+            "title": "Prowess and Power: Women in Vintage Comics",
+            "description": "How American comics reflect the origins of women’s independence",
+            "date": "Nov 23, 2022"
+        },
+
+        {
+            "image": "artimages/bi-erasure.png",
+            "title": "Bi-Erasure: potentially harmful queer representation in the media",
+            "description": "Confronting complex messages in what we consume and challenging our binary thoughts",
+            "date": "Oct 28, 2022"
+        },
+
+        {
+            "image": "artimages/Trance-Quasius-Psychadelia-1.png",
+            "title": "Psychedelia",
+            "description": "Hallucinogens trip into mainstream music",
+            "date": "Oct 27, 2022"
+        },
+
+        {
+            "image": "artimages/behind-the-cute-little-figures.jpeg",
+            "title": "Behind The Cute Little Figures",
+            "description": "Keith Haring’s legendary impact on social justice art",
+            "date": "Oct 26, 2022"
+        },
+
+        {
+            "image": "artimages/thank-you-for-the-music.jpeg",
+            "title": "Thank You for the Music",
+            "description": "A look into some of the drama behind ABBA’s iconic disco ballads",
+            "date": "Oct 24, 2022"
+        },
+
+        {
+            "image": "artimages/been-here-before.jpg",
+            "title": "I Feel Like I’ve Been Here Before",
+            "description": "The science behind Déjà vu and society’s fascination with the phenomenon in music and film",
+            "date": "Oct 24, 2022"
+        },
+
+        {
+            "image": "artimages/beat-chemistry.jpeg",
+            "title": "Beat Chemistry",
+            "description": "EDM'S influence on my mind, body and life",
+            "date": "Oct 21, 2022"
+        },
+
+        {
+            "image": "artimages/film-industry.jpg",
+            "title": "Lighting Up the Film Industry",
+            "description": "The intentional usage of lighting in the film industry is a vital component in producing an effective and meaningful film.",
+            "date": "May 14, 2022"
+        },
+
+        {
+            "image": "artimages/young-culture.jpeg",
+            "title": "Star to a Young Culture",
+            "description": "Shining a spotlight on inspirational K-pop girl group STAYC",
+            "date": "May 11, 2022"
+        },
+
+        {
+            "image": "artimages/beauty-is-pain.png",
+            "title": "Beauty is Pain is Art",
+            "description": "For an artist to be successful in this industry, is it required of them to exploit, or even create, their own pain?",
+            "date": "May 8, 2022"
+        },
+
+        {
+            "image": "artimages/books.jpeg",
+            "title": "I Reread My Favorite Books From Middle School",
+            "description": "Here’s which ones are worth the reread and which to skip",
+            "date": "May 1, 2022"
+        },
+
+        {
+            "image": "artimages/growing-pains.jpg",
+            "title": "Growing Pains in Loving Oneself to Love Another",
+            "description": "An Ode to the timeless lessons of “When Harry Met Sally”",
+            "date": "Apr 28, 2022"
+        },
+
+        {
+            "image": "artimages/true-meaning-romance.jpeg",
+            "title": "The True Meaning of Romance",
+            "description": "How romanticism inspires the world today",
+            "date": "Apr 28, 2022"
+        },
+
+        {
+            "image": "artimages/love-language-film.jpeg",
+            "title": "Love Languages in Film",
+            "description": "Iconic television couples and their love languages",
+            "date": "Apr 27, 2022"
+        },
+
+        {
+            "image": "artimages/romantilies.png",
+            "title": "RomantiLIEs",
+            "description": "The harmful impact of the romanticized version of ‘love’ in the media",
+            "date": "Apr 27, 2022"
+        },
+
+        {
+            "image": "artimages/lgbtq+.jpeg",
+            "title": "LGBTQ+ Love Affairs Throughout History",
+            "description": "Why it is important to discuss “straight-washed” historical figures",
+            "date": "Apr 26, 2022"
+        },
+
+        {
+            "image": "artimages/fresh-twist-horror.gif",
+            "title": "A Fresh Twist on Horror",
+            "description": "Mimi Cave’s debut feature gives viewers a raw look at modern dating.",
+            "date": "Apr 25, 2022"
+        },
+
+        {
+            "image": "artimages/sounds-familiar.jpg",
+            "title": "That Sounds Familiar",
+            "description": "Is music sampling fair?",
+            "date": "Apr 14, 2022"
+        },
+
+        {
+            "image": "artimages/sex-ed.jpeg",
+            "title": "Fact or Fiction: The Sexual Education Revolution",
+            "description": "How the era age of digitized smut changed the erotic narrative",
+            "date": "Apr 7, 2022"
+        },
+
+        {
+            "image": "artimages/female-emotion.jpg",
+            "title": "A Range of Female Emotion",
+            "description": "",
+            "date": "Apr 5, 2022"
+        },
+
+        {
+            "image": "artimages/Marina.png",
+            "title": "MARINA and Divine Femininity",
+            "description": "Creating an empire by embodying self-growth and transformation",
+            "date": "Apr 4, 2022"
+        },
+
+        {
+            "image": "artimages/fezco-euphoria-84aa846.jpeg",
+            "title": "Irony and Parallelism in the “Euphoria” Season 2 Finale",
+            "description": "Examining the three biggest plots and the deeper meanings behind them",
+            "date": "Apr 1, 2022"
+        },
+
+        {
+            "image": "artimages/art-section-subversive-playlist.png",
+            "title": "The Art Section's Subversive Playlist",
+            "description": "It’s edgy, all-inclusive and unapologetic: Say hello to the Arts Section’s “Subversive” playlist.",
+            "date": "Mar 28, 2022"
+        },
+
+        {
+            "image": "artimages/mental-breakdown.jpeg",
+            "title": "The Art of the Mental Breakdown",
+            "description": "Ye’s artistically publicized mental health crisis",
+            "date": "Mar 26, 2022"
+        },
+
+        {
+            "image": "artimages/taller-in-another-dimension.png",
+            "title": "Taller In Another Dimension",
+            "description": "Exploring the depths of Ocean’s lyricism",
+            "date": "Mar 25, 2022"
+        },
+
+        {
+            "image": "artimages/merely-players.jpg",
+            "title": "Merely Players",
+            "description": "Performing gender in Shakespeare’s plays",
+            "date": "Mar 21, 2022"
+        },
+
+        {
+            "image": "artimages/my-body.jpeg",
+            "title": "“My Body”",
+            "description": "A review of Emily Ratajkowski’s bestselling literary debut",
+            "date": "Feb 28, 2022"
+        },
+
+        {
+            "image": "artimages/night-negentropy.png",
+            "title": "A Night of Negentropy",
+            "description": "Experiencing immersive arts",
+            "date": "Feb 17, 2022"
+        }
+    ]
+}
