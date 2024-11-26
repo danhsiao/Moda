@@ -36,3 +36,5 @@ function PastFinaleShows() {
         </div>
     );
 }
+
+export default PastFinaleShows;

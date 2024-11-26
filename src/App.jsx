@@ -12,6 +12,7 @@ import Lifestyle from './pages/Lifestyle';
 import Culture from './pages/Culture';
 import Fashion from './pages/Fashion';
 import DigitalIssues from './pages/digitalIssues';
+import PastFinaleShows from './pages/PastFinaleShows';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/fashion-week-2023' element={<FashionWeek2023/>}/>
         <Route path='/fashion-week-2022' element={<FashionWeek2022/>}/>
         <Route path='/fashion-week-2021' element={<FashionWeek2021/>}/>
+        <Route path='/past-fashion-shows' element={<PastFinaleShows />}/>
         <Route path='/lifestyle' element={<Lifestyle/>}/>
         <Route path='/culture' element={<Culture/>}/>
         <Route path='/fashion' element={<Fashion/>}/>

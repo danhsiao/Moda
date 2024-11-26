@@ -9,6 +9,7 @@ function Navbar() {
         "FASHION WEEK 2023": "fashion-week-2023",
         "FASHION WEEK 2022": "fashion-week-2022",
         "FASHION WEEK 2021": "fashion-week-2021",
+        "PAST FASHION SHOWS": "past-finale-shows"
     }
 
     const ISSUES_LINKS = {
