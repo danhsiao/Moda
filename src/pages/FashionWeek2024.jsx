@@ -16,14 +16,15 @@ function List() {
     const descriptionItems = descriptions.map(descriptions => <li>{descriptions}</li>); */
   
     const listItems = dates.map((date, index) => (
-      <div className="listItem" key={index}>
-        <div className="date">{date}</div>
-        <div className="event">{events[index]}</div>
-        <div className="eventDescriptionContainer">
-        <div className="description">{descriptions[index]}</div>
+        <div className="listItem" key={index}>
+          <div className="event">{events[index]}
+          <div className="date">{date}</div>
+          </div>
+          <div className="eventDescriptionContainer">
+          <div className="description">{descriptions[index]}</div>
+          </div>
         </div>
-      </div>
-    ));
+      ));
   
     return(
         <section className="allLists">

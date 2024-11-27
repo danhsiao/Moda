@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 
 function PastFinaleShows() { 
     return (
-        <div> className = "finale-show-gallery"
+        <div className = "finale-show-gallery">
             <h1>Past Finale Show Galleries</h1>
 
             <div className = "carousel-container">

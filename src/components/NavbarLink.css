@@ -10,3 +10,7 @@ a {
 .navbox > div > a {
     color: white;
 }
+
+.navbox {
+    position: absolute;
+}
