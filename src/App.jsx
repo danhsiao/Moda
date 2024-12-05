@@ -8,6 +8,7 @@ import FashionWeek2024 from './pages/FashionWeek2024';
 import FashionWeek2022 from './pages/FashionWeek2022';
 import FashionWeek2023 from './pages/FashionWeek2023';
 import FashionWeek2021 from './pages/FashionWeek2021';
+import Latest from './pages/Latest';
 import Lifestyle from './pages/Lifestyle';
 import Culture from './pages/Culture';
 import Fashion from './pages/Fashion';
@@ -29,6 +30,7 @@ function App() {
         <Route path='/fashion-week-2022' element={<FashionWeek2022/>}/>
         <Route path='/fashion-week-2021' element={<FashionWeek2021/>}/>
         <Route path='/past-fashion-shows' element={<PastFinaleShows />}/>
+        <Route path='/latest' element={<Latest />}/>
         <Route path='/lifestyle' element={<Lifestyle/>}/>
         <Route path='/culture' element={<Culture/>}/>
         <Route path='/fashion' element={<Fashion/>}/>
