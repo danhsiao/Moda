@@ -11,7 +11,7 @@ function Fashion() {
             <h1>Fashion</h1>
             <div className="gallery">
                 {
-                    fashionSection.fashionsectioncomponents.map((component,index) => (
+                    fashionSection.fashionComponents.map((component,index) => (
                         <Card key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date}/>
                     ))
                 }

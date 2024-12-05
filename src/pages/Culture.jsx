@@ -11,7 +11,7 @@ function Culture() {
             <h1>Culture</h1>
             <div className="gallery">
                 {
-                    cultureData.culturecomponents.map((component,index) => (
+                    cultureData.cultureComponents.map((component,index) => (
                         <Card key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date}/>
                     ))
                 }
