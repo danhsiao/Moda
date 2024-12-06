@@ -1,8 +1,3 @@
-@keyframes fadeIn {
-    0% { background-color: transparent; }
-    100% { background-color: black; }
-}
-
 .navbar-nav {
     display:flex;
     padding: 40px;
@@ -17,7 +12,7 @@
     padding: 0px 20px 0px 20px;
     text-decoration: none;
     color: grey;
-    transition:0.5s;
+    transition:0.2s;
 }
 
 .navbar-nav #navTitle {
@@ -29,7 +24,7 @@
 
 .navbar-nav a:hover {
     color:black;
-    transition:0.5s;
+    transition:0.2s;
 }
 
 .navbar-nav a:hover .navbox {
@@ -37,13 +32,19 @@
 }
 
 .navbox {
-    /* TODO: make navbox fade-in and out work */
     background-color: black; /* SHOULD be transparent, but animation not currently working */
-    animation-duration: 1s; /* same as transition duration */
-    animation-timing-function: linear; /* kind of same as transition timing */
-    animation-delay: 0ms; /* same as transition delay */
-    animation-iteration-count: 1; /* set to 2 to make it run twice, or Infinite to run forever!*/
-    animation-direction: normal; /* can be set to "alternate" to run animation, then run it backwards.*/
-    animation-fill-mode: none; /* can be used to retain keyframe styling after animation, with "forwards" */
-    animation-play-state: running; /* can be set dynamically to pause mid animation*/
+    animation: anim 0.1s ease-in;
+    border-radius: 10px;
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0%;
+        margin-top: 5px;
+    };
+
+    100% {
+        opacity: 100%;
+        margin-top: 0px;
+    };
 }

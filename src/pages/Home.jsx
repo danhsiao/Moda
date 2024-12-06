@@ -31,6 +31,7 @@ function Home() {
                 <div className="home-text"><h2>Latest Online</h2></div>
                 <div className="latest-online">
                     {
+                        // Display first 10 sections
                         combinedComponents.slice(0, 10).map((component, index) => {
                             return <Card key={index} image={component.image} title={component.title} description={component.description}
                                 date={component.date}/>
