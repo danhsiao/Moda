@@ -18,6 +18,7 @@ function Home() {
     const combinedComponents = Object.keys(sections)
         .flatMap(key => Object.values(sections[key]))
         .sort((a, b) => new Date(b.date) - new Date(a.date));
+    var delay = 0;
 
     return (
         <div className="App">
@@ -34,7 +35,7 @@ function Home() {
                         // Display first 10 sections
                         combinedComponents.slice(0, 10).map((component, index) => {
                             return <Card key={index} image={component.image} title={component.title} description={component.description}
-                                date={component.date}/>
+                                date={component.date} delay={delay+=0.1}/>
                         })
                     }
                 </div>

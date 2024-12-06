@@ -5,6 +5,7 @@ import Card from "../components/Card";
 
 function DigitalIssues() {
     const digitalIssues = require('../data/digitalissuesData.json');
+    var delay = 0;
     return(
         <div>
             <Navbar />
@@ -12,7 +13,7 @@ function DigitalIssues() {
             <div className="issues">
                 {
                     digitalIssues.digitalIssues.map((component,index) => (
-                        <Card key={index} image = {component.image}/>
+                        <Card key={index} image = {component.image} delay={delay+=0.1}/>
                     ))
                 }
             </div>

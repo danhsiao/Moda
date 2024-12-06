@@ -5,6 +5,7 @@ import Card from "../components/Card";
 
 function Culture() {
     const cultureData = require('../data/culturedata.json');
+    var delay = 0;
     return(
         <div>
             <Navbar />
@@ -12,7 +13,7 @@ function Culture() {
             <div className="gallery">
                 {
                     cultureData.cultureComponents.map((component,index) => (
-                        <Card key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date}/>
+                        <Card key={index} image = {component.image} title = {component.title} description = {component.description} date = {component.date} delay = {delay+=0.1}/>
                     ))
                 }
             </div>

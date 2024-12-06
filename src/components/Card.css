@@ -1,8 +1,10 @@
 .gallery-item {
+    visibility: hidden;
     transition: transform 0.3s;
     width: 250px;
     height: 400px;
     margin: 10px 10px;
+    animation: fadein 0.3s ease-in;
 }
 
 .gallery-item:hover {
@@ -29,4 +31,15 @@
 .gallery-item h3 {
     font-size: medium;
     font-style: italic;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0%;
+        margin-top: 5px;
+    };
+    100% {
+        opacity: 100%;
+        margin-top: 0px;
+    };
 }
